@@ -38,9 +38,12 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "axios": "^0.15.2",
     "babel-preset-stage-1": "^6.1.18",
     "cheerio": "^0.20.0",
     "classnames": "^2.2.5",
+    "fs": "0.0.1-security",
+    "jsonfile": "^2.4.0",
     "lodash": "^3.10.1",
     "react": "^0.14.8",
     "react-dom": "^0.14.8",
