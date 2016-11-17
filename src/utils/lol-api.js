@@ -14,6 +14,7 @@ export function getMatches(region, summonerId) {
     data.then(({ data }) => resolve(data)).catch((err) => reject(err));
   });
 }
+
 export function getMatch(region, matchId) {
   return new Promise((resolve, reject) => {
     const endPoint = `https://${region}.api.pvp.net/api/lol/${region}/v2.2/match/${matchId}`
